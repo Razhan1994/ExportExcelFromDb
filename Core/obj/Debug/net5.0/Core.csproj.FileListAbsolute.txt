@@ -1,0 +1,15 @@
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\bin\Debug\net5.0\Core.dll
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\obj\Debug\net5.0\Core.dll
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\obj\Debug\net5.0\Core.pdb
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\bin\Debug\net5.0\Domain.dll
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\bin\Debug\net5.0\Domain.pdb
+C:\Users\javid\source\repos\ExportExcelFromDB\Core\obj\Debug\net5.0\Core.csproj.CopyComplete
