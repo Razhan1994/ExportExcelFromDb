@@ -92,3 +92,4 @@ C:\Users\javid\source\repos\ExportExcelFromDB\ExportExcelFromDB\obj\Debug\net5.0
 C:\Users\javid\source\repos\ExportExcelFromDB\ExportExcelFromDB\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\javid\source\repos\ExportExcelFromDB\ExportExcelFromDB\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\javid\source\repos\ExportExcelFromDB\ExportExcelFromDB\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\javid\source\repos\ExportExcelFromDB\ExportExcelFromDB\obj\Debug\net5.0\Razor\Views\Home\ExportExcel.cshtml.g.cs

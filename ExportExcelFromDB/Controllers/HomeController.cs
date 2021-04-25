@@ -24,8 +24,14 @@ namespace ExportExcelFromDB.Controllers
 
         public async Task<IActionResult> ExportExcel()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> GetExcelLink()
+        {
             string link = await _exportService.ExportExcel();
-            return View(link);
+            return Json(link);
         }
 
         public IActionResult Index()

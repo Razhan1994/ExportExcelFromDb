@@ -1,0 +1,21 @@
+﻿
+<div class="form-group">
+    <div class="form-control">
+        <input type="button" id="get-userlist-excel" value="Get Excel Link" />
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.js" 
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+
+</script>
+<script>
+    $(document).on('click', '#get-userlist-excel', function () {
+        $.ajax({
+            type: 'POST',
+            url: '/Home/GetExcelLink',
+            success: function () {
+                alert('ok');
+            }
+        })
+    });
+</script>
