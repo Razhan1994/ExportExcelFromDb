@@ -13,8 +13,8 @@
         $.ajax({
             type: 'POST',
             url: '/Home/GetExcelLink',
-            success: function () {
-                alert('ok');
+            success: function (link) {
+                alert(link.result);
             }
         })
     });

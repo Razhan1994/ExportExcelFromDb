@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Service.ExportExcel;
+using Service.Main;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,7 @@ namespace ExportExcelFromDB
             services.AddControllersWithViews();
 
             services.AddSingleton<IExportService, ExportService>();
+            services.AddSingleton<IMainService, MainService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

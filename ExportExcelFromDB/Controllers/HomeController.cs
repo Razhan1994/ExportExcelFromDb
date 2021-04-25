@@ -1,7 +1,7 @@
 ﻿using ExportExcelFromDB.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Service.ExportExcel;
+using Service.Main;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,14 +12,14 @@ namespace ExportExcelFromDB.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IExportService _exportService;
+        private readonly IMainService _mainService;
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger,
-            IExportService exportService)
+            IMainService mainService)
         {
             _logger = logger;
-            _exportService = exportService;
+            _mainService = mainService;
         }
 
         public async Task<IActionResult> ExportExcel()
@@ -30,7 +30,7 @@ namespace ExportExcelFromDB.Controllers
         [HttpPost]
         public async Task<IActionResult> GetExcelLink()
         {
-            string link = await _exportService.ExportExcel();
+            string link = await _mainService.GetUserListExcel();
             return Json(link);
         }
 
