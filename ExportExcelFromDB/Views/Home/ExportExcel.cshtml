@@ -36,7 +36,8 @@
             type: 'POST',
             url: '/Home/GetExcelLink',
             success: function (link) {
-                document.getElementById('excel-link').setAttribute('href', res.link.result);            }
+                document.getElementById('excel-link').setAttribute('href', link.result);
+            }
         })
     });
 </script>
