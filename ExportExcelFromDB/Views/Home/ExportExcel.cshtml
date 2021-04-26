@@ -3,6 +3,28 @@
     <div class="form-control">
         <input type="button" id="get-userlist-excel" value="Get Excel Link" />
     </div>
+
+    <div class="btn-group btn-export-excel2">
+        <button type="button" class="btn btn-primary dropdown-toggle export-btn"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-file" aria-hidden="true"></i>
+            <span>&nbsp;</span>
+            Export
+        </button>
+        <div class="dropdown-menu export-drop">
+            <a class="dropdown-item" id="getReportRelatedNPCsExcel" href="javascript:;" onclick="document.getElementById('excel-link').click();">
+                <i class="fa fa-file-excel-o" aria-hidden="true"></i>
+                <span>&nbsp;</span>
+                Excel
+            </a>
+            <a href="" class="disp-none" id="excel-link"></a>
+            <!--  <a class="dropdown-item pdf-btn" id="getExpReportCampPdf" href="#">
+                <i class="fa fa-file-pdf-o pdf-btn" aria-hidden="true"></i>
+                <span class="pdf-btn">&nbsp;</span>
+                PDF
+            </a>-->
+        </div>
+    </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.js" 
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
@@ -14,8 +36,7 @@
             type: 'POST',
             url: '/Home/GetExcelLink',
             success: function (link) {
-                alert(link.result);
-            }
+                document.getElementById('excel-link').setAttribute('href', res.link.result);            }
         })
     });
 </script>

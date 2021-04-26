@@ -42,7 +42,6 @@ namespace Service.ExportExcel
                 IWorkbook workbook = new XSSFWorkbook();
                 ISheet excelSheet = workbook.CreateSheet(outputName.Replace(":", "-"));
 
-
                 List<String> columns = new List<string>();
                 IRow row = excelSheet.CreateRow(0);
                 int columnIndex = 0;
